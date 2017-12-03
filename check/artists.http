@@ -1,0 +1,18 @@
+GET http://localhost:7000/artists
+
+###
+GET http://localhost:7000/artists/5a238bdfec055307c4f17d48
+
+###
+GET http://localhost:7000/artists/5a238bdfec055307c4f17d41
+
+###
+GET http://localhost:7000/artists/23793792
+
+###
+POST http://localhost:7000/artists
+Content-Type: application/json
+
+{
+  "name": "Bright Eyes"
+}
